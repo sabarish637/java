@@ -1,0 +1,15 @@
+import java.io.*;
+import java.util.*;
+public class Solution {
+    public static void main(String[] args) {
+        Scanner inn= new Scanner(System.in);
+        double a=inn.nextDouble();
+        int  b= inn.nextInt();
+        int c= inn.nextInt();
+        int d=inn.nextInt();
+                System.out.println((int)Math.floor(a));
+        System.out.println((int)Math.ceil(a));
+        System.out.println((int)Math.sqrt(b));
+        System.out.println((int)Math.pow(c,d));
+    }
+}
